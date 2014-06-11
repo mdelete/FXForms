@@ -22,6 +22,8 @@
  {"key": "privacyPolicy", "class": "PrivacyPolicyViewController"},
  {"key": "agreedToTerms", "title": "I Agree To These Terms", "type": "option"},
  
+ {"header": "Calculation", "key": "multi", "cell": "FXFormMultiValueCell"},
+ 
  {"header": "", "title": "Submit", "type": "label", "action": "submitRegistrationForm:"}
 
 ]

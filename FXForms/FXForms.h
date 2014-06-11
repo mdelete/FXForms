@@ -250,6 +250,12 @@ static NSString *const FXFormFieldTypeImage = @"image";
 
 @end
 
+@interface FXFormMultiValueCell : FXFormBaseCell
+
+@property (nonatomic, readonly) UITextField *textField;
+
+@end
+
 
 #pragma GCC diagnostic pop
 
