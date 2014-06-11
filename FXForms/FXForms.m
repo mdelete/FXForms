@@ -2478,6 +2478,12 @@ static BOOL *FXFormSetValueForKey(id<FXForm> form, id value, NSString *key)
 
 @implementation FXFormImagePickerCell
 
+//mdelete: make image preview bigger
++ (CGFloat)heightForField:(__unused FXFormField *)field width:(__unused CGFloat)width
+{
+    return 100.0f;
+}
+
 - (void)setUp
 {
     [super setUp];
@@ -2501,7 +2507,7 @@ static BOOL *FXFormSetValueForKey(id<FXForm> form, id value, NSString *key)
     CGRect frame = self.imagePickerView.bounds;
     frame.size.height = self.bounds.size.height - 10;
     frame.size.width = frame.size.height;
-    //MARC
+    //mdelete: force quadratic size
     //UIImage *image = self.imagePickerView.image;
     //frame.size.width = image.size.height? image.size.width * (frame.size.height / image.size.height): 0;
     self.imagePickerView.bounds = frame;
