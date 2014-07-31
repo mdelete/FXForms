@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0169994518A1663700E7085F"
-               BuildableName = "DependentFieldsExample.app"
-               BlueprintName = "DependentFieldsExample"
-               ReferencedContainer = "container:DependentFieldsExample.xcodeproj">
+               BuildableName = "TemplateFieldsExample.app"
+               BlueprintName = "TemplateFieldsExample"
+               ReferencedContainer = "container:TemplateFieldsExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "0169996018A1663700E7085F"
                BuildableName = "BasicExampleTests.xctest"
                BlueprintName = "BasicExampleTests"
-               ReferencedContainer = "container:DependentFieldsExample.xcodeproj">
+               ReferencedContainer = "container:TemplateFieldsExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0169994518A1663700E7085F"
-            BuildableName = "DependentFieldsExample.app"
-            BlueprintName = "DependentFieldsExample"
-            ReferencedContainer = "container:DependentFieldsExample.xcodeproj">
+            BuildableName = "TemplateFieldsExample.app"
+            BlueprintName = "TemplateFieldsExample"
+            ReferencedContainer = "container:TemplateFieldsExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0169994518A1663700E7085F"
-            BuildableName = "DependentFieldsExample.app"
-            BlueprintName = "DependentFieldsExample"
-            ReferencedContainer = "container:DependentFieldsExample.xcodeproj">
+            BuildableName = "TemplateFieldsExample.app"
+            BlueprintName = "TemplateFieldsExample"
+            ReferencedContainer = "container:TemplateFieldsExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0169994518A1663700E7085F"
-            BuildableName = "DependentFieldsExample.app"
-            BlueprintName = "DependentFieldsExample"
-            ReferencedContainer = "container:DependentFieldsExample.xcodeproj">
+            BuildableName = "TemplateFieldsExample.app"
+            BlueprintName = "TemplateFieldsExample"
+            ReferencedContainer = "container:TemplateFieldsExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
